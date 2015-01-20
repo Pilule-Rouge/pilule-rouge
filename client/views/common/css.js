@@ -1,2 +1,0 @@
-Template[getTemplate('css')].helpers({
-});
