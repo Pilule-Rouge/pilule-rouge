@@ -2,7 +2,7 @@
 
 ### What Is This?
 
-CrunchHunt lists the top [TechCrunch](http://techcrunch.com) posts of each day, ranked by popularity (a bit like [Product Hunt](http://producthunt.com)). 
+CrunchHunt lists the top [TechCrunch](http://techcrunch.com) posts of each day, ranked by popularity (a bit like [Product Hunt](http://producthunt.com)).
 
 It was built on top of [Telescope](http://telesc.pe), a free open-source app that makes it very easy to create your own communities, as a cool way to showcase what Telescope can do. You can [read more about the process here](http://www.telesc.pe/blog/making-of-crunchhunt/).
 
