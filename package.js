@@ -1,7 +1,8 @@
 Package.describe({
-  summary: 'Pilule Rouge',
+  name: 'gentlenode:pilule-rouge',
   version: '0.1.0',
-  name: 'pilule-rouge'
+  summary: 'Improvements for the crunchhunt package',
+  git: 'https://github.com/Pilule-Rouge/pilule-rouge'
 });
 
 Npm.depends({
