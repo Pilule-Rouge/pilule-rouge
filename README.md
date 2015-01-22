@@ -7,3 +7,5 @@ Pilule Rouge is a fork of the [Crunch Hunt package](https://github.com/Telescope
 * Ability to update the about page directly from the Admin panel.
 * Automatic category linking based on keywords set in the title and the description. (after customization in the admin panel)
 * Encoding fixes for RSS feeds.
+
+To use this package, you must download and put it in the `packages` folder of your Telescope application. And append `pilule-rouge` to the packages file in the `.meteor` folder.
