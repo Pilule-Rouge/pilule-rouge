@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'gentlenode:pilule-rouge',
+  name: 'pilule-rouge',
   version: '0.1.0',
   summary: 'Improvements for the crunchhunt package',
   git: 'https://github.com/Pilule-Rouge/pilule-rouge'
