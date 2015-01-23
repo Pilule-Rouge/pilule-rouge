@@ -51,8 +51,6 @@ Package.onUse(function (api) {
 
   // both
 
-  api.addFiles('content/about.md', ['client', 'server'], {isAsset: true});
-
   api.add_files([
     'lib/main.js',
   ], ['client', 'server']);
