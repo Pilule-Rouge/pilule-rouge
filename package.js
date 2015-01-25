@@ -24,7 +24,8 @@ Package.onUse(function (api) {
     'fourseven:scss',             // SCSS compilation package
     'percolatestudio:synced-cron',
     'telescope-singleday',         // depend on singleday package to make sure it loads first
-    'dandv:rate-limit'
+    'dandv:rate-limit',
+    'aldeed:autoform'
   ]);
 
   // client
@@ -53,13 +54,18 @@ Package.onUse(function (api) {
 
   api.add_files([
     'lib/main.js',
+    'lib/routes.js',
+    'lib/about.js'
   ], ['client', 'server']);
 
   // client
 
   api.add_files([
+    'lib/client/templates/about_editor.html',
+    'lib/client/templates/about_editor.js',
     'lib/client/templates/about_link.html',
     'lib/client/templates/about_page.html',
+    'lib/client/templates/about_page.js',
     'lib/client/templates/tagline.html',
     'lib/client/templates/custom_post_info.html',
     'lib/client/templates/custom_post_avatars.html',
@@ -71,6 +77,7 @@ Package.onUse(function (api) {
   // server
 
   api.add_files([
+    'lib/server/publications.js',
     'lib/server/cron.js',
     'lib/server/shares.js'
   ], ['server']);
@@ -84,6 +91,7 @@ Package.onUse(function (api) {
   // -------------------------------- 3. Variables to export --------------------------------
 
   api.export([
+    'About',
     'primaryNav',
     'secondaryNav',
     'postModules',

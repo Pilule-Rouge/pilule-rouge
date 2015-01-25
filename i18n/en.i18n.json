@@ -1,5 +1,6 @@
 {
   "translation_key": "translation string",
   "customViewLink": "Custom View Link",
-  "customAdminLink": "Custom Admin Link"
+  "customAdminLink": "Custom Admin Link",
+  "editor_about_description": "Content for about page."
 }
