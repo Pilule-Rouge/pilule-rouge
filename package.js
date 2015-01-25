@@ -86,6 +86,7 @@ Package.onUse(function (api) {
 
   api.add_files([
     'i18n/en.i18n.json',
+    'i18n/fr.i18n.json'
   ], ['client', 'server']);
 
   // -------------------------------- 3. Variables to export --------------------------------
